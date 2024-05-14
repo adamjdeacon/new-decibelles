@@ -51,13 +51,17 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
+			// border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
 
 			.icon {
 				&:before {
 					font-size: 2rem;
 				}
+			}
+			img { 
+				padding-top: 0.1rem;
+				width: 100%;
 			}
 		}
 
